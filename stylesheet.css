@@ -1,0 +1,40 @@
+html {
+    font-family: arial;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#gmail, 
+#images, 
+#menu {
+    display: block;
+    padding: 10px 30px 10px 0px;
+}
+
+#connexion {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    background-color: blue;
+    color: white;
+}
+
+#googlelogo {
+    display: block;
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    height: 92px;
+    width: 272px;
+}
+
+#barre {
+    display: block;
+    width: 50%;
+    height: 20px;
+    border: 1px solid;
+    margin: 40px auto;
+}
