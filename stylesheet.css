@@ -123,6 +123,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width: 100%;
     border-top: 1px solid #D2DCDB;
 }
 
@@ -134,7 +135,7 @@ footer{
     display: block;
     background-color: #f2f2f2;
     width: 100%;
-    height: 15px;
+    height: 14px;
     padding: 10px 20px 10px 20px;
     text-align: left ;
     border: 1px;
@@ -145,7 +146,7 @@ footer{
     display: block;
     background-color: #f2f2f2;
     width: 10Opx;
-    height: 15px;
+    height: 14px;
     padding: 10px 20px 10px 20px;
     text-align: center ;
 
