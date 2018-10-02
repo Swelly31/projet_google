@@ -1,48 +1,70 @@
 html {
     font-family: arial;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
-footer {
-    position: relative;
+/* BARRE DE NAV HAUTE */
+
+#nav li {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-#nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
 
-#gmail, 
-#images, 
-#menu {
+
+li a {
     display: block;
-    padding: 10px 30px 10px 30px;
-}
+    text-align: center;
+    padding: 10px 30px 10px 20px;
+ }
 
-#connexion {
+
+
+.connection {
     display: block;
     padding: 10px 30px 10px 30px;
     background-color: blue;
     color: white;
 }
 
+
+/* LOGO DE GOOGLE */
+
 #googlelogo {
     display: block;
     padding-top: 100px;
-    width: 50%;
+    padding-left: 360px;
     margin: auto;
     height: 92px;
     width: 272px;
 }
 
+/* BARRE DE RECHERCHE */
+
 #barre {
     display: block;
-    width: 50%;
+    width: 400px;
     height: 20px;
     border: 1px solid rgba(20, 30, 36, 0.3);
     margin: 40px auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
 }
+
+#search {
+    width: 350px;
+    height: 15px;
+}
+
+#micro {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 20px;
+}
+
+/* BOUTONS RECHERCHE ET CHANCE */
 
 #boutons {
     display: flex;
@@ -52,28 +74,49 @@ footer {
 
 #recherche {
     display: block;
-    background-color: grey;
-    width: 120px;
-    height: 20px;
+    background-color: #f2f2f2;
+    width: 95px;
+    height: 14px;
     padding: 10px 30px 10px 30px;
-    text-align: center ;
+    text-align: center;
     margin-right: 5px;
+    font-family: arial-label;
+    font-weight: bold;
+    color: grey;
+
+
 }
 
 #chance {
     display: block;
-    background-color: grey;
-    width: 120px;
-    height: 20px;
+    background-color: #f2f2f2;
+    width: 95px;
+    height: 14px;
     padding: 10px 30px 10px 30px;
     text-align: center ;
     margin-left: 5px;
+    font-family: arial-label;
+    font-weight: bold;
+    color: grey;
+}
+
+/* FOOTER */
+
+
+footer{
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #f2f2f2;
+  bottom: 0;
+  border-top: 1px solid #D2DCDB;
 }
 
 #pays {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    width: 100%;
 }
 
 #info {
@@ -88,11 +131,22 @@ footer {
 
 #pays div {
     display: block;
-    background-color: grey;
+    background-color: #f2f2f2;
     width: 100%;
+    height: 15px;
+    padding: 10px 30px 10px 0px;
+    text-align: left ;
+    border: 1px;
+ 
 }
 
 #info div {
     display: block;
-    background-color: grey;
+    background-color: #f2f2f2;
+    width: 10Opx;
+    height: 15px;
+    padding: 5px 30px 10px 0px;
+    text-align: center ;
+
 }
+
